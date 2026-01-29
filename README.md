@@ -57,22 +57,15 @@ Acesse o projeto no navegador:
 http://127.0.0.1:8000
 ```
 
-Funcionalidades Principais
-Área Pública: Visualização de receitas e detalhes
+## Funcionalidades Principais
+- Área Pública: Visualização de receitas e detalhes
+- Painel Administrativo: Gestão de receitas (CRUD) via Livewire
+- Autenticação: Sistema de login e registro com Laravel Breeze
+- Componentes: Uso de Livewire Volt para componentes reativos
 
-Painel Administrativo: Gestão de receitas (CRUD) via Livewire
-
-Autenticação: Sistema de login e registro com Laravel Breeze
-
-Componentes: Uso de Livewire Volt para componentes reativos
-
-Tecnologias Utilizadas
-Laravel 11
-
-Livewire 3 + Volt
-
-Tailwind CSS
-
-Alpine.js
-
-Vite
+## Tecnologias Utilizadas
+- Laravel 11
+- Livewire 3 + Volt
+- Tailwind CSS
+- Alpine.js
+- Vite
