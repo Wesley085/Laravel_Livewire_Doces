@@ -15,32 +15,47 @@ Duplicar o arquivo `.env.example` e renomear para `.env`.
 
 ```bash
 cp .env.example .env
+```
 Alterar no arquivo .env as credenciais do banco de dados.
 
 Instalar as dependências do backend:
-
+```bash
 composer install
+```
 Instalar as dependências do frontend e compilar os assets:
-
+```bash
 npm install && npm run build
+```
+
 Gerar a chave da aplicação:
-
+```bash
 php artisan key:generate
+```
+
 Criar o link simbólico para o storage (necessário para exibir imagens das receitas):
-
+```bash
 php artisan storage:link
+```
+
 Executar as migrations:
-
+```bash
 php artisan migrate
-Executar as seeds (opcional, para popular o banco):
+```
 
+Executar as seeds:
+```bash
 php artisan db:seed
+```
+
 Iniciar o servidor local:
-
+```bash
 php artisan serve
-Acesse o projeto no navegador:
+```
 
+Acesse o projeto no navegador:
+```bash
 http://127.0.0.1:8000
+```
 
 Funcionalidades Principais
 Área Pública: Visualização de receitas e detalhes
